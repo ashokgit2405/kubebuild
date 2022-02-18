@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM centos:centos7
 
 RUN yum install httpd -y
 RUN rm -f /var/www/html/hello.html
